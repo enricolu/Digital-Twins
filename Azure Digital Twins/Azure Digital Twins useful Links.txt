@@ -1,0 +1,33 @@
+azure digital twin graph viewer:
+https://github.com/Azure/azure-digital-twins-graph-viewer
+
+IOT School:
+https://iotschool.microsoft.com/en-us/iot/learning-paths/2xRPONGJ9Gkae4o8MgySKm/6IEknSA0jCM6o6e46wgcuk
+https://iotschool.microsoft.com/en-us/iot/learning-paths/2xRPONGJ9Gkae4o8MgySKm
+
+At the end of the day what is Digital Twins about?
+https://techcommunity.microsoft.com/t5/Azure-IoT/At-the-end-of-the-day-what-is-Digital-Twins-about/m-p/759502
+
+Microsoft Tech Community:
+https://techcommunity.microsoft.com/t5/forums/searchpage/tab/message?advanced=false&allow_punctuation=false&filter=location&location=forum-board:Azure-IoT&q=azure%20digital%20twins
+
+Hotel360 IOT Repository:
+https://github.com/microsoft/SmartHotel360-IoT
+
+azure digital twins feedback forum:
+https://feedback.azure.com/forums/916621-azure-digital-twins
+
+Microsoft Developer Network:Ask Question
+https://social.msdn.microsoft.com/Forums/azure/en-US/338de579-d5e0-4681-bec1-c7d46dd239c5/azure-digital-twins?forum=azuredigitaltwins
+
+deployment.zip error:
+https://github.com/Azure/azure-cli/issues/11158
+
+
+Error related links:
+
+How to fix “AADSTS700054: response_type ‘id_token’ is not enabled for the application” error:
+https://www.koskila.net/how-to-fix-aadsts700054-response_type-id_token-is-not-enabled-for-the-application-error/
+
+How to fix “AADSTS50011: The reply address does not match the reply addresses configured" error:
+https://www.koskila.net/aadsts50011-the-reply-address-does-not-match-the-reply-addresses-configured/

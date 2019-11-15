@@ -1,0 +1,80 @@
+Azure Digital Twins:
+
+
+Subscription ID: 94448721-4050-4db5-8e26-65fe81e42a85
+
+
+Application (client) ID
+c30a6972-cb93-415b-a4c5-45f617b96206
+Directory (tenant) ID
+487753ef-8cf6-4960-ad5f-9ceb7b82fcd7
+Object ID
+082fe048-1f99-420c-ac5d-596141da368f
+
+Service Principal ID:
+6897ad7d-cf96-4d9c-bde4-482d45b73866
+
+ServicePrincipalNames : {c30a6972-cb93-415b-a4c5-45f617b96206}
+ApplicationId         : c30a6972-cb93-415b-a4c5-45f617b96206
+ObjectType            : ServicePrincipal
+DisplayName           : Hotel360demo
+Id                    : 6897ad7d-cf96-4d9c-bde4-482d45b73866
+Type                  :
+
+ az ad sp create-for-rbac --skip-assignment //AKS Cluster
+ 
+ "appId": "1eb40afc-7059-40af-8a61-26a499bf81e5",
+  "displayName": "azure-cli-2019-11-12-09-02-18",
+  "name": "http://azure-cli-2019-11-12-09-02-18",
+  "password": "7f290368-4ba0-4e34-b91a-947ace653efc",
+  "tenant": "487753ef-8cf6-4960-ad5f-9ceb7b82fcd7"
+
+
+Client Secret Key:
+-jYijxBf6-.srtN?50E0NnL0BsFvtmpD
+
+{subscription id}--94448721-4050-4db5-8e26-65fe81e42a85
+{resource group name}-- Hotel360demo
+{resource group location}-- Central India
+{app id}-- c30a6972-cb93-415b-a4c5-45f617b96206
+{app key}--  -jYijxBf6-.srtN?50E0NnL0BsFvtmpD
+{service principal id}-- 6897ad7d-cf96-4d9c-bde4-482d45b73866
+{AKS service principal app id}-- "1eb40afc-7059-40af-8a61-26a499bf81e5"
+{AKS service principal password}-- "7f290368-4ba0-4e34-b91a-947ace653efc"
+
+
+.\deploy.ps1 -subscriptionId "94448721-4050-4db5-8e26-65fe81e42a85" -resourceGroupName "Hotel360Demo" -resourceGroupLocation "Central India" -clientId "c30a6972-cb93-415b-a4c5-45f617b96206" -clientSecret "-jYijxBf6-.srtN?50E0NnL0BsFvtmpD" -clientServicePrincipalId "6897ad7d-cf96-4d9c-bde4-482d45b73866" -aksServicePrincipalId "1eb40afc-7059-40af-8a61-26a499bf81e5" -aksServicePrincipalKey "7f290368-4ba0-4e34-b91a-947ace653efc"
+
+.\deploy.ps1 -subscriptionId {subscription id} -resourceGroupName {resource group name} -resourceGroupLocation {resource group location} -clientId {app id} -clientSecret {app key} -clientServicePrincipalId {service principal id} -aksServicePrincipalId {AKS Service Principal App Id} -aksServicePrincipalKey {AKS Service Principal password}
+
+
+    "Head Of Operations": "b398b823-2eb7-4b4c-972e-260e345c9a95",// Ganesh G
+    "Hotel Brand 1 Manager": "8b0146ec-5b31-40f8-9d66-a7d70803cfa9",//Ajit B
+    "Hotel 1 Manager": "d062f696-7b90-41f9-9bed-f7debc7b85af",//mayur p
+    "Hotel 1 Employee": "c893484d-7633-4c83-ae12-c24d4ac9c070",// Pritam B
+	
+	Usersetting.json file
+	{
+    "tenantId":  "487753ef-8cf6-4960-ad5f-9ceb7b82fcd7",
+    "clientId":  "c30a6972-cb93-415b-a4c5-45f617b96206",
+    "aadReplyUrl":  "https://sh360iot-facilitymgmt-pi3dosk7t5ayw.azurewebsites.net/*",
+    "digitalTwinsManagementEndpoint":  "https://sh360iot-DigitalTwins-pi3dosk7t5ayw.westus2.azuresmartspaces.net/management",
+    "facilityManagementWebsiteUri":  "https://sh360iot-facilitymgmt-pi3dosk7t5ayw.azurewebsites.net",
+    "facilityManagementApiUri":  "https://sh360iot-facilitymgmtapi-pi3dosk7t5ayw.azurewebsites.net",
+    "facilityManagementApiEndpoint":  "https://sh360iot-facilitymgmtapi-pi3dosk7t5ayw.azurewebsites.net/api",
+    "storageConnectionString":  "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=sh360iotstoragepi3dosk7t;AccountKey=+9Wu2r6G4digBZ3o84dRSPgt3pqwjTJRoCmXzJfOl6Lv42RG2X6nPUqUBRs7u8uNqtoEFOAhfsVzTP+L/NfdDg==",
+    "eventHubConsumerConnectionString":  "Endpoint=sb://sh360iot-eventhubnamespace-pi3dosk7t5ayw.servicebus.windows.net/;SharedAccessKeyName=consumer;SharedAccessKey=TDK4WUtVhWrFiBtjrkupLteWeqgfDxTQqzzYu9+nTYg=;EntityPath=sh360iot-EventHub-pi3dosk7t5ayw",
+    "iotHubConnectionString":  "HostName=sh360iot-IoTHub-pi3dosk7t5ayw.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=pKF1TQSNrOH1875LNaQFSduC9T2ZojQlaNpHBVCUCbk=",
+    "cosmosDbConnectionString":  "mongodb://sh360iot-db-pi3dosk7t5ayw:O4YPXLwn3G60Ge9uO3EwP0MPY8e3ogi2XBSkmmOvOZKYhvTUdNOaSiWnPqkf9mH8KoGPllzF4akwTFMT7SJMTA==@sh360iot-db-pi3dosk7t5ayw.documents.azure.com:10255/?ssl=true\u0026replicaSet=globaldb",
+    "azureMapsKey":  "4Y832mWUbcz0VaGxTsPXJngbFX82ChpIY3KO7QjKpf0",
+    "tsiFQGN":  "b5081fd8-2327-4c27-9892-0820d94acf43.env.timeseries.azure.com",
+    "roomDevicesApiEndpoint":  "http://52.191.143.22:2000/api",
+    "demoRoomSpaceId":  "081a5631-a6dd-4594-b8b7-99cc77f60962",
+    "demoRoomKubernetesDeployment":  "sh.d.room.smarthotel360-sh360elite1-room101",
+    "deviceRelayFunctionEndpoint":  "https://sh360iot-Functions-pi3dosk7t5ayw.azurewebsites.net/api/DeviceRelayFunction",
+    "deviceRelayFunctionKey":  "R7n5ak7MCiVa0txzmmYxiBVaqrTcGBmh7K9Q7OXTCLz1E4Saqj4AUw=="
+}
+
+	
+
+
