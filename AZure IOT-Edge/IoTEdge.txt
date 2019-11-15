@@ -1,0 +1,33 @@
+https://raspberrypi.stackexchange.com/questions/34053/powershell-cant-connect-to-windows-iot
+
+
+http://hookscode.com/connecting-to-a-raspberry-pi-using-powershell/
+
+
+To set an Environment Variable:
+******************************
+
+https://opensource.com/article/19/9/environment-variables-powershell
+
+https://opensource.com/article/19/8/variables-powershell 
+
+
+Putty:
+******
+
+
+
+administrator@Silicus1234 C:\Data\Users\administrator>powershell
+
+
+
+PS C:\Data\Users\administrator> Set-Item WSMan:\localhost\Client\TrustedHosts -V
+alue 10.66.0.58
+
+
+PS C:\Data\Users\administrator> Set-Location Env:
+
+PS Env:\> Get-ChildItem
+
+
+PS C:\Data\Users\administrator> Set-Variable -Name PROCESSOR_ARCHITECTURE -Value "AMD64"
