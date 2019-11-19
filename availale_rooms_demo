@@ -1,0 +1,42 @@
+available-rooms-demo:
+
+application(client) ID:
+a1d20308-73c2-4282-bacd-e026d54c2e4a
+
+directory(tenant) ID:
+487753ef-8cf6-4960-ad5f-9ceb7b82fcd7
+https://trafficManagementdigitaltwins.australiaeast.azuresmartspaces.net/management/swagger
+
+    "BaseUrl": "https://trafficManagementdigitaltwins.australiaeast.azuresmartspaces.net/management/api/v1.0/"
+	
+client secret:	vxj.ZAQUf17prvySHgQ-Q_ikgJwr3:26
+
+ "ConnectionString": "HostName=ih-72de5263-a012-4856-87d4-336b226bb2a5-1.azure-devices.net;DeviceId=1739da9f-93e0-4548-8a64-ba958b447101;SharedAccessKey=LeU26l2fZSRs6w8nnjc5URXJ1yfNQCKLA+vw9oO/3Ts=",
+ 
+ 
+ https://docs.microsoft.com/en-us/azure/digital-twins/
+ 
+ news@predica.pl.
+ 
+  https://microsoft.com/
+  
+  application uri:
+  
+  api://a1d20308-73c2-4282-bacd-e026d54c2e4a
+  
+  
+  ******************************************************************************************************************************************************
+  https://trafficmanagementdigitaltwins.australiaeast.azuresmartspaces.net/management/swagger/docs/V1
+  
+  https://trafficmanagementdigitaltwins.australiaeast.azuresmartspaces.net/management/api/v1.0/
+  
+  https://trafficmanagementdigitaltwins.australiaeast.azuresmartspaces.net
+  
+  Application (client) ID:
+  218245ab-f0cd-4e11-bcca-638f824e8bbe
+  Directory (tenant) ID:
+  487753ef-8cf6-4960-ad5f-9ceb7b82fcd7
+  
+  
+  "ConnectionString": "HostName=ih-6402de34-8425-45fa-9c39-e73051d4a577-1.azure-devices.net;DeviceId=6a1458a5-e73b-443f-876c-4547fcc47a29;SharedAccessKey=Oju60nm2JOfLaHhwf6+rXXxfE1Zp4H9UCZp3V75SMFk="
+  https://trafficmanagementdigitaltwins.australiaeast.azuresmartspaces.net/management/swagger/ui/oauth2-redirect-html
